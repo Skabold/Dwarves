@@ -1,0 +1,201 @@
+
+/* ------------Body + p------------ */
+body{
+    background-color: black;
+    
+    
+}
+p{
+    text-align: center;
+    color :#cb9b3d;
+}
+p, label {
+font-family:Arial, Helvetica, sans-serif;
+font-size: 18px;
+color :#cb9b3d;
+}
+
+ table, th, td {
+ font-family:Arial, Helvetica, sans-serif;
+ font-size: 18px;
+ color :12242f;
+ border: 1px hidden black;
+ text-align: center;
+}
+
+    table.center {
+    margin-left:auto; 
+    margin-right:auto;
+    background-color: white;
+    color :#12242f;
+  }
+/* ------------IMPORTANT WORD------------ */
+
+h1 {
+  font-size: 26px;
+  font-family:Arial, Helvetica, sans-serif;
+  color: #cb9b3d;
+  padding:16px;
+  font-weight:lighter;
+  -moz-box-shadow: 2px 2px 6px black;  
+  -webkit-box-shadow: 2px 2px 6px black;  
+  box-shadow:2px 2px 6px black;  
+  text-align:center;
+  display:block;
+  margin:16px;
+  background-color: grey;
+ /* background-image: url("fond_noir.jpg"); */ 
+}
+
+h2 {
+  font-size: 22px;
+  font-family:Arial, Helvetica, sans-serif;
+  color: white;
+  padding:16px;
+  font-weight:lighter;
+  -moz-box-shadow: 2px 2px 6px black;  
+  -webkit-box-shadow: 2px 2px 6px black;  
+  box-shadow:2px 2px 6px black;  
+  text-align:center;
+  display:block;
+  margin:16px;
+  background-color: grey;
+}
+h3 {
+    
+  font-size: 18px;
+  font-family:Arial, Helvetica, sans-serif;
+  color: #cb9b3d;
+  padding:16px;
+  font-weight:lighter;
+  -moz-box-shadow: 2px 2px 6px black;  
+  -webkit-box-shadow: 2px 2px 6px black;  
+  box-shadow:2px 2px 6px black;  
+  text-align:center;
+  display:block;
+  margin:16px;
+  background-color:#12242f;
+    
+    
+}
+/* ------------LIST------------ */
+
+ul {
+    
+    padding: 20px;
+    list-style-type:none;
+    
+}
+ul li {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 50px;
+    background-color:#12242f;
+    color: white;
+    text-align: center;
+    list-style-type:none;
+}
+
+
+/* ------------LINK------------ */
+
+a:link {   
+    background-color:#12242f;
+    color: #cb9b3d;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block
+    }
+a:visited{
+    background-color:#12242f;
+    color: #cb9b3d;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block
+}
+a:hover{
+    background-color:#12242f;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block
+    }
+a:active{/* rien */}
+
+/* ------------FORM------------ */
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #12242f;
+    border-radius: 50px;
+    background-color:#12242f;
+    color: #cb9b3d;
+}
+input[type=submit] {
+    
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid Black;
+    border-radius: 50px;
+    background-color: Gray;
+    color: #cb9b3d;
+}
+
+
+/* ------------ICON------------ */
+#icon {
+    width:25;
+    height:25;
+    border: dashed 2px black;
+    border-radius: 5px;
+    
+}
+
+#BigIcon {
+    
+    width:75;
+    height:75;
+    border: dashed 2px black;
+    border-radius: 5px;
+    
+}
+
+/* ------------Info------------ */
+#info {
+    
+    width: 50% ;
+    margin: auto;
+    text-align: center;
+    background-color:#12242f;
+    color: #cb9b3d;
+    
+}
+/* ------------BIG PICTURE------------ */
+#MinePicture, #profile, #grave  {
+    height: 300;
+    width: 300;
+    border: solid 4px #12242f;
+    
+}
+
+/* ------------Chat------------ */
+#chat {
+    
+    text-align: left;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: #12242f;
+    color : white;
+    border: solid 1px black;
+    border-radius: 5px;
+}
